@@ -28,9 +28,43 @@
     <link rel="apple-touch-icon" href="assets/images/icons/resume-180.png">
     <!-- Мета-теги для Android (например, для Chrome, если сайт добавлен на главный экран) -->
     <meta name="theme-color" content="#ffffff"> 
+    <!-- css link -->
+    <link rel="stylesheet" href="assets/css/main.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <title>Резюме - Руслан Вороненко Фронтенд розробник</title>
 </head>
 <body>
-    
+    <!-- header -->
+    <header class="header header-bg">
+        <div class="header__wrapper">
+            <div class="header__logo">
+                <a href="#" aria-label="logo" title="front-end developer">Frontend <span>developer</span></a>
+            </div>
+            <div class="header__lang">
+                <button id="lang-uk" class="header__language-button header__language-button--active" aria-label="
+                Перейти на українську мову">UK</button>
+                <button id="lang-en" class="header__language-button" aria-label="Перейти до англійської мови">EN</button>
+            </div>
+            <div class="header__themes">
+                <label class="header__themes-switch">
+                    <input class="header__themes-input" type="checkbox" id="theme-toggle">
+                    <span class="header__themes-slider buttonRound">
+                        <span class="icon-sun"><i class="fa-solid fa-sun"></i></span>
+                        <span class="icon-moon"><i class="fa-solid fa-moon"></i></span>
+                    </span>
+                </label>
+            </div>
+            <!-- nav  -->
+            <div class="header__menu" id="burger-menu">
+                <div class="header__menu-burger">
+                    <span class="header__menu-line"></span>
+                    <span class="header__menu-line"></span>
+                    <span class="header__menu-line"></span>
+                </div>
+            </div>
+            
+        </div>
+    </header>
+    <!-- header end -->
 </body>
 </html>

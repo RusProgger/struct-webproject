@@ -1,0 +1,23 @@
+// *:focus {
+//     outline: none; 
+//     box-shadow: 0 0 0 3px rgba(33, 150, 243, 0.5); 
+//     border: 0.5px solid rgba(36, 72, 102, 0.7);
+//     border-radius: 5px;
+// }
+
+
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: $colorText;
+    background-color: $colorBg;
+    position: relative;
+    margin-top: 130px;
+}
+
